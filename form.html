@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Page</title>
+  </head>
+  <body>
+    <h3>Input data required here</h3>
+    <hr />
+    <form action="" method="post" enctype="ww">
+      <!-- inputs -->
+      <p><div>
+        <label for="">Name:</label>
+        <input type="text"  name="name"  required placeholder="Dented Code"/>
+      </div>
+    </p>
+     <p><div>
+        <label for="">Email:</label>
+        <input type="email" name="email"  required placeholder="dented@gmail.com"/>
+      </div></p> 
+      <p><div>
+        <label for="">Phone:</label>
+        <input type="number" name="phone" required value="61" disabled/>
+      </div></p>
+      <p><div>
+        <label for="">Password:</label>
+        <input type="password" name="password" placeholder="*******"/>
+      </div></p> 
+      <p><div>
+        <p><div>
+            <label for="">Datetime:</label>
+            <input type="datetime-local" name="local"  />
+          </div></p> 
+          <p><div>
+            <div>
+                <p>
+                    <label for="">Resume</label>
+                    <input type="file" name="resume" multiple>
+                </p>
+            </div>
+            <p>
+                <label for="">Gender</label>
+                <input type="radio" name="gender" id="m"><label for="m">Male</label>
+                <input type="radio" name="gender" id="f"><label for="f">Female</label>
+                <input type="radio" name="gender" id="n"><label for="n">N/A</label>
+                <!-- use label to select option by clicking them -->
+            </p>
+            <p>
+                <input type="checkbox" name="" id=""><label for="">Terms and condition</label>
+            </p>
+            <div>
+                <h3>Select your course</h3>
+                <select name="course" id="" multiple>
+                    <option value="">-----Select your course----</option>
+                    <option value="frontend">Front End</option>
+                    <option value="backend">Back End</option>
+                    <option value="fullstack">Full Stack</option>
+                </select>
+            </div>
+            <p>
+                <textarea type="text" name="" id="" rows="10" cols="40"></textarea>
+            </p>
+            <p><input type="color" name="red" id=""></p>
+
+            <p>
+                <input type="search" name="" id="">
+            </p>
+      <!-- one button at end -->
+       <p><input type="button">Submit</input></p>
+      
+    </form>
+  </body>
+</html>

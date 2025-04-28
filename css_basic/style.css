@@ -4,3 +4,20 @@ p {
 p1 {
   color: pink;
 }
+#fifth {
+  color: cadetblue;
+}
+.pg {
+  color: hotpink !important;
+}
+section p {
+  text-decoration: underline;
+}
+p::first-line {
+  color: green;
+  text-transform: capitalize;
+}
+a:hover {
+  font-size: 30px;
+  color: cadetblue;
+}

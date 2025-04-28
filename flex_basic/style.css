@@ -1,0 +1,77 @@
+Try AI directly in your favorite apps … Use Gemini to generate drafts and refine content, plus get Gemini Advanced with access to Google’s next-gen AI for $32.99 A$0 for 1 month
+/* p {
+  color: red;
+} */
+
+/* #fifth {
+  color: red !important;
+} */
+
+/* #fifth {
+  color: pink !important;
+} */
+
+/* .pg {
+  color: chartreuse;
+} */
+
+/* * {
+  color: red;
+} */
+
+/* Descendant (space) */
+
+/* section p {
+  color: red;
+} */
+
+/* Child (>) */
+/* section > p {
+  color: red;
+} */
+
+/* Adjacent (+) */
+/* section + div {
+  color: red;
+} */
+
+/* Sibling (~) */
+/* section ~ div {
+  color: red;
+} */
+
+/* -- Attribute selector */
+/* [href] {
+  background: pink;
+} */
+/* [href="google link here"] {
+  background: pink;
+}
+
+div[data-myatt="myatt"] {
+  font-size: 3rem;
+} */
+
+/* 4. Pseudo-elements Selector */
+/* p::first-letter {
+  font-size: 3rem;
+} */
+/* p::first-line {
+  background: yellow;
+} */
+
+/* 5. Pseudo-class Selector */
+
+/* a:hover {
+  font-size: 2rem;
+  color: red;
+} */
+/* 
+p:nth-child(3) {
+  color: red;
+} */
+
+/* even || odd */
+p:nth-child(even) {
+  color: red;
+}
